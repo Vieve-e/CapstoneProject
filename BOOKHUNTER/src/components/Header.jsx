@@ -1,6 +1,6 @@
 import NavBar from "./Navbar";
 import SearchBar from "./SearchBar";
-
+import backgroundImage from "../assets/background.png";
 import "../index.css";
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
       <div className="relative h-[90vh] sm:h-[80vh]">
           <img
             className="absolute inset-0 w-full h-full object-cover"
-            src="src/assets/background.png"
+            src={backgroundImage}
             alt="Hero Background"
           />
           {/* Overlay */}
@@ -24,7 +24,7 @@ const Header = () => {
                 Bringing you a step further to your quest for knowledge
               </h1>
               <p className="text-lg sm:text-xl font-inria serif text-black">
-                Your favourite book search engine
+                Your favourite book search engine❤️
               </p>
                </div>
             </div>
